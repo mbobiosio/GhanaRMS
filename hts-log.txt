@@ -1,0 +1,13 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 04 Mar 2020 15:22:56 at https://colorlib.com/polygon/cooladmin/index.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://colorlib.com/polygon/cooladmin/index.html -O1 "C:\Users\FAAN\Documents\CyberLink\admin panel" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+15:26:40	Warning: 	Retry after error -2 (Receive Time Out) at link https://colorlib.com/polygon/cooladmin/vendor/font-awesome-5/webfonts/fa-brands-400.woff2 (from https://colorlib.com/polygon/cooladmin/vendor/font-awesome-5/css/fontawesome-all.min.css)
+15:26:41	Error: 	"Not Found" (404) at link https://colorlib.com/polygon/cooladmin/mailto (from https://colorlib.com/polygon/cooladmin/typo.html)
+
+HTTrack Website Copier/3.49-2 mirror complete in 3 minutes 45 seconds : 213 links scanned, 210 files written (7825100 bytes overall) [4233510 bytes received at 18815 bytes/sec], 6165605 bytes transferred using HTTP compression in 133 files, ratio 38%, 35.5 requests per connection
+(1 errors, 1 warnings, 0 messages)

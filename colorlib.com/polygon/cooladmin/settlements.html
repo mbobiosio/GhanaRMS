@@ -169,9 +169,13 @@
                             <a href="chart.html">
                                 <i class="fas fa-chart-bar"></i>Charts</a>
                         </li>
-                        <li class="active">
+                        <li>
                             <a href="passenger-data.html">
                                 <i class="fas fa-table"></i>Passenger Data</a>
+                        </li>
+                        <li class="active">
+                            <a href="settlements.html">
+                                <i class="fas fa-table"></i>Settlements</a>
                         </li>
                         <li>
                             <a href="form.html">
@@ -432,25 +436,31 @@
                         <div class="row">
                             <div class="col-md-12">
 
-                                <h3 class="title-5 m-b-35">passenger data</h3>
+                                <h3 class="title-5 m-b-35">settlements</h3>
                                 <div class="table-data__tool">
                                     <div class="table-data__tool-left">
                                         <div class="rs-select2--light rs-select2--md">
                                             <select class="js-select2" name="property">
-                                                <option selected="selected">Airlines</option>
-                                                <option value="">All Flights</option>
-                                                <option value="">Arik</option>
+                                                <option selected="selected">Agency</option>
+                                                <option value="">GCAA</option>
+                                                <option value="">GAMC</option>
+                                                <option value="">Ministry of Aviation</option>
                                             </select>
                                             <div class="dropDownSelect2"></div>
                                         </div>
                                         <div class="rs-select2--light rs-select2--sm">
                                             <select class="js-select2" name="time">
-                                                <option selected="selected">Airports</option>
-                                                <option value="">Kotoka</option>
-                                                <option value="">Kumasi</option>
-                                                <option value="">Tamale</option>
-                                                <option value="">Takoradi</option>
-                                                <option value="">Sunyani</option>
+                                                <option selected="selected">Currency</option>
+                                                <option value="">GHC</option>
+                                                <option value="">USD</option>
+                                            </select>
+                                            <div class="dropDownSelect2"></div>
+                                        </div>
+                                        <div class="rs-select2--light rs-select2--sm">
+                                            <select class="js-select2" name="time">
+                                                <option selected="selected">Revenue</option>
+                                                <option value="">International</option>
+                                                <option value="">Domestic</option>
                                             </select>
                                             <div class="dropDownSelect2"></div>
                                         </div>
@@ -466,6 +476,51 @@
                                             <i class="zmdi zmdi-filter-list"></i>search</button>
                                     </div>
                                 </div>
+
+                                <section class="statistic statistic2">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-6 col-lg-3">
+                                                <div class="statistic__item statistic__item--red">
+                                                    <h2 class="number">$1,060,386</h2>
+                                                    <span class="desc">amount invoiced</span>
+                                                    <div class="icon">
+                                                        <i class="zmdi zmdi-money"></i>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="col-md-6 col-lg-3">
+                                                <div class="statistic__item statistic__item--orange">
+                                                    <h2 class="number">388,688</h2>
+                                                    <span class="desc">amount paid</span>
+                                                    <div class="icon">
+                                                        <i class="zmdi zmdi-money-box"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 col-lg-3">
+                                                <div class="statistic__item statistic__item--blue">
+                                                    <h2 class="number">1,086</h2>
+                                                    <span class="desc">amount settled</span>
+                                                    <div class="icon">
+                                                        <i class="zmdi zmdi-money"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 col-lg-3">
+                                                <div class="statistic__item statistic__item--green">
+                                                    <h2 class="number">10,368</h2>
+                                                    <span class="desc">outstanding</span>
+                                                    <div class="icon">
+                                                        <i class="zmdi zmdi-account-o"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+
                                 <div class="table-responsive table-responsive-data2">
                                     <table class="table table-data2">
                                         <thead>
@@ -477,7 +532,7 @@
                                                     </label>
                                                 </th>
                                                 <th>sn</th>
-                                                <th>airline</th>
+                                                <th>invoice</th>
                                                 <th>flight number</th>
                                                 <th>flight date</th>
                                                 <th>total pax</th>
